@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="$views/css/image.css">
+        <link rel="stylesheet" href="$views/css/list.css">
+        <link rel="stylesheet" href="$views/css/buttons.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="/js/globals.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h2>Queue</h2>
+            <div id="index" class="section">
+                <p>Right click and queue these yourself because my API is too lacking to do it for you.</p>
+                <button id="r-all" disabled class="sp-button sp-button-small">Remove all</button>
+                <div id="playlist"></div>
+
+                <a id="r-log" href="javascript:void(0)" style="display:none">Reset</a>
+                <pre id="log" style="display:none"></pre>
+            </div>
+        </div>
+        <script src="/js/q.js"></script>
+    </body>
+</html>

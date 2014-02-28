@@ -1,0 +1,27 @@
+{
+  "AppName": {
+    "en": "Queue"
+  },
+  "BundleIdentifier": "q",
+  "AppDescription": {
+    "en": "Handle track URIs without interrupting now playing."
+  },
+  "AppIcon": {
+     "36x18": "icon-sm.png"
+  },
+  "AcceptedLinkTypes": [],
+  "BundleType": "Application",
+  "BundleVersion": "1.0.0",
+  "Dependencies": {
+    "api": "1.38.0",
+    "views": "1.18.1"
+  },
+  "RequiredPermissions": [
+      "http://ajax.googleapis.com/"
+  ],
+  "SupportedLanguages": [
+    "en"
+  ],
+  "VendorIdentifier": "com.ryannauman"
+}
+
